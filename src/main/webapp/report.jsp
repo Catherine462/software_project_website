@@ -26,24 +26,31 @@
 					</div>
 
 					<div class="signin-form">
-						<h2 class="form-title">Admin Dashboard</h2>
+						<h2 class="form-title">Report</h2>
 					
 						<br></br>
 						
 							
-							<div class="form-group form-button">
-								
+						
 							
-									<span><a href="addFood.jsp" class="form-submit" style="text-decoration:none;">Add Food</a>
-									<a href="updatePrice.jsp" class="form-submit" style="text-decoration:none;margin-left:61px">Update Price</a></span>
-									<a href="changeDiscount.jsp" class="form-submit" style="text-decoration:none;margin-top:48px">Change Discount</a>
-									<a href="printReport.jsp" class="form-submit" style="text-decoration:none;margin-left:16px;margin-top:52px">Print Report </a>
-									<a href="logOut.jsp" class="form-submit" style="text-decoration:none;margin-left:140px;
-    margin-top: 53px;">Logout</a>
-									
+					<form method="" action="" class="register-form"
+							id="login-form">
+							<div class="form-group">
+								<label for="report">Showing report of the week</label> <input
+									type="report" name="report" id="report"
+									 style="margin-left:180px;"/>
 							</div>
 							
-					
+							
+							<div class="form-group form-button">
+								<a href="" class="form-submit" style="text-decoration:none;margin-left:19px">Change Discount</a>
+										
+							
+									<a href="dashboard.jsp" class="form-submit" style="text-decoration:none;margin-left:25px">Back</a>
+							</div>
+							
+						</form>
+						
 					</div>
 				</div>
 			</div>
@@ -56,4 +63,3 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
-    
